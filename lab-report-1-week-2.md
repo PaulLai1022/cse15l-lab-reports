@@ -46,5 +46,9 @@ Next it will ask you to enter the passphrase which we will enter none, then it w
 And afterward you can just log in to your ```ssh``` account via only using ssh + account name.
 
 ## **Sixth**
+We can actually do lots of things to avoid the redundant step when using terminal commend. For example, the first time we want to compile the file we wrote we have to do ```javac fileName.java``` and ```java fileName``` to run the file. However, we can actually do them at the same line like 
+```javac fileName.java; java fileName;``` to make the run file commend can be done in one line. Let's try ```javac fileName.java; java fileNmae; ls ``` we can run the file and output the list within the directory at the same time. 
+<img width="568" alt="Screen Shot 2022-04-18 at 10 20 44 AM" src="https://user-images.githubusercontent.com/71100835/163846836-77fc55f9-9f30-4188-8945-00a3ef1cd188.png">
+
 
 
