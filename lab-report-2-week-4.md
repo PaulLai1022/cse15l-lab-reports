@@ -19,10 +19,23 @@ So the first error we fix is while the EOF is a \n by adding a if statement for 
 
 [File for failure inducing input2](https://PaulLai1022.github.io/markdown-pharse/test-file1.md)
 
-***The symptoms shown for input1***
+***The symptoms shown for input2***
 <img width="975" alt="Screen Shot 2022-05-02 at 2 08 56 PM" src="https://user-images.githubusercontent.com/71100835/166328107-722fe23d-c17a-4809-a4a1-26dc6d1840c6.png">
 
 **Description**
 So bascially we input a image file in our tester file, which shall not be shown in the output, but as you can see in the symptoms screen shot we can witness that the image file still printed out by the computer, which is not the expected output .
 
 ## **Code Change 3**
+
+[Code change 3](https://github.com/PaulLai1022/markdown-pharse/commit/7d6f4b1184cbad5bd65dd52fd0e450cfcd4682ac)
+
+<img width="1214" alt="Screen Shot 2022-05-02 at 2 16 00 PM" src="https://user-images.githubusercontent.com/71100835/166329081-738b1df3-03b6-4982-9cbe-c8de75dd8d42.png">
+
+[File for failure inducing input3](https://PaulLai1022.github.io/markdown-pharse/test-file2.md)
+
+***The symptoms shown for input3***
+<img width="900" alt="Screen Shot 2022-05-02 at 2 20 12 PM" src="https://user-images.githubusercontent.com/71100835/166329578-199c731b-104d-4cd0-b53f-e176ff2ab226.png">
+
+**Description**
+So bascially we tested that if a file with nothing that the code should be print out, we would get a outbound error. And the following picture is how we fix this problem. 
+
