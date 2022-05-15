@@ -25,6 +25,7 @@ For the following screening shot, I run the git commend to add file into repo in
 <img width="1440" alt="Screen Shot 2022-05-14 at 5 45 49 PM" src="https://user-images.githubusercontent.com/71100835/168452720-8b31df96-0f21-45dd-8ef7-f20ebe46aeab.png">
 
 <img width="1439" alt="Screen Shot 2022-05-14 at 5 51 05 PM" src="https://user-images.githubusercontent.com/71100835/168452796-d8589727-c8af-4bce-b2d1-67800dafcaed.png">
+
 [Link to commit](https://github.com/PaulLai1022/skill-demo9/commit/4a8ae81c7b5791f00661419ad6eb51f585436812)
 
 ---
