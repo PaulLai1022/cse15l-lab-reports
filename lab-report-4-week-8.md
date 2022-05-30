@@ -13,4 +13,11 @@
 <img width="574" alt="Screen Shot 2022-05-30 at 11 53 56 AM" src="https://user-images.githubusercontent.com/71100835/171047491-43801689-2a40-44d6-a186-5098ddc6ada5.png">
 
 ---
-#Answer
+# Answer to Question
+**Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.**
+- I think one possible soltion is to fix the code in MarkdownParse.javac via ignoring the characters bewteen the two backticks or from a backtick until the line ends. In this case, we are able to avoid the no-needed open bracket for example in line 1 and the no-needed end bracket at line 7, which will allow the program to detect the expected output ucsd.edu becase the second right endbracket is recognized. 
+
+**Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.**
+
+
+
