@@ -20,10 +20,10 @@
 **Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.**
 - I feel like the solution for a.com(()) is to have a count to cound the number of open and close bracket, and at the end we would be able to print all them out if the cnt is a even number. And the solution for the example.com test case is to search for "](" instead of doing the search separately. In thise case, we would be able to skip the no-needed end bracket in line 5, which ]( would be able to recognized and the example.com will be included in the following output. 
 
-**Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
+**Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.**
 - As we look in to the code, we could witness that the iteration of the loop in MardownParse stops when any text and line is found betwen the open and close parenthesis. In this case, we would skip github and but twitter would stay. Moreover, my program could omit the line from returned which in ths case the format of the ouput would be more correct. 
 
-**If your code already works on some/all test cases, include an explanation of what were the code changes that allowed the tests to pass.
+**If your code already works on some/all test cases, include an explanation of what were the code changes that allowed the tests to pass.**
 - All of them failed lmaooo
 
 
